@@ -37,10 +37,20 @@ HOW TO RUN:
 3. Install the required Python packages:
       pip install mysql-connector-python
       pip install pillow
-
 4. Create the MySQL database and required table.
-5. Run the application:
-      python login.py
+
+DATABASE SETUP:
+1. Install MySQL Server.
+2. Open MySQL Workbench.
+3. Create the database:
+          CREATE DATABASE database_name;
+4. Create the required `student` table.
+5. Run the application using:
+          python login.py
+6. In the Connect Database window, enter:
+Host Name: localhost
+User Name: root
+Password: Your MySQL password
 
 
 
